@@ -1,10 +1,12 @@
 
 
-# Woolsneak eCommerce
+# WoolSneak-E-commerce 🚀
 
 **Your one-stop shop for premium sneakers, streetwear, and exclusive drops.**
 
-![Woolsneak Banner](path-to-your-image)
+![WoolSneak Banner](path-to-your-image)
+
+---
 
 ## Table of Contents
 
@@ -12,6 +14,7 @@
 * [Features](#features)
 * [Tech Stack](#tech-stack)
 * [Screenshots](#screenshots)
+* [Live Demo](#live-demo)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
@@ -22,35 +25,34 @@
 
 ## Overview
 
-Woolsneak is a modern eCommerce platform designed to deliver a seamless shopping experience for sneaker enthusiasts. Users can browse products, manage their cart, complete secure payments, and track orders—all from an intuitive web interface.
+WoolSneak-E-commerce is a **full-stack eCommerce platform** built for sneaker enthusiasts and streetwear fans. Users can explore exclusive collections, add items to their cart, make secure payments, and track orders—all from an intuitive, responsive web interface.
 
 **Key Goals:**
 
-* Fast and responsive web experience
-* Secure user authentication and payments
-* Scalable architecture for future growth
+* Lightning-fast, responsive interface
+* Robust, secure authentication & payments
+* Scalable backend for real-world traffic
 
 ---
 
 ## Features
 
-* **User Authentication:** Sign up, login, password recovery
-* **Product Management:** Browse, filter, and search products
-* **Shopping Cart:** Add/remove items, manage quantities
-* **Payment Integration:** Secure checkout (Stripe/PayPal)
-* **Order Tracking:** View order status and history
-* **Admin Dashboard:** Manage products, orders, and users
+* ✅ User Authentication (Sign up, Login, Password Reset)
+* ✅ Browse, Filter & Search Products
+* ✅ Shopping Cart Management
+* ✅ Secure Payment Integration (Stripe / PayPal)
+* ✅ Order Tracking & History
+* ✅ Admin Dashboard for product/order management
 
 ---
 
 ## Tech Stack
 
-* **Frontend:** React.js, Tailwind CSS
-* **Backend:** Node.js, Express.js
-* **Database:** MongoDB
-* **Authentication:** JWT / OAuth
-* **Payment Gateway:** Stripe / PayPal
-* **Hosting:** Vercel / Heroku
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge\&logo=tailwind-css\&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge\&logo=stripe\&logoColor=white)
 
 ---
 
@@ -62,27 +64,23 @@ Woolsneak is a modern eCommerce platform designed to deliver a seamless shopping
 
 ---
 
+## Live Demo
+
+🌐 Check out the live version: [WoolSneak Live](https://your-live-demo-url.com)
+
+---
+
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
 ```bash
-git clone https://github.com/irfanahammad/woolsneak.git
-```
-
-2. Navigate to project directory:
-
-```bash
-cd woolsneak
-```
-
-3. Install dependencies:
-
-```bash
+git clone https://github.com/irfanahammad/WoolSneak-E-commerce.git
+cd WoolSneak-E-commerce
 npm install
 ```
 
-4. Setup environment variables in `.env`:
+Setup environment variables in `.env`:
 
 ```
 MONGO_URI=your_mongodb_uri
@@ -90,7 +88,7 @@ JWT_SECRET=your_secret_key
 STRIPE_KEY=your_stripe_key
 ```
 
-5. Run the development server:
+Run the development server:
 
 ```bash
 npm run dev
@@ -100,27 +98,42 @@ npm run dev
 
 ## Usage
 
-* Visit `http://localhost:3000`
-* Register or login
-* Browse and add sneakers to your cart
-* Checkout using integrated payment
-* Track orders in your profile
+1. Visit `http://localhost:3000`
+2. Register or log in
+3. Browse products and add to cart
+4. Checkout via Stripe / PayPal
+5. Track orders in your profile
 
 ---
 
 ## Contributing
 
 1. Fork the repository
-2. Create your feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -m 'Add feature'`
-4. Push to the branch: `git push origin feature-name`
+2. Create a feature branch:
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes:
+
+```bash
+git commit -m "Add feature"
+```
+
+4. Push to branch:
+
+```bash
+git push origin feature-name
+```
+
 5. Open a Pull Request
 
 ---
 
 ## License
 
-This project is licensed under the MIT License.
+MIT License © 2025 Irfan Ahmad
 
 ---
 
